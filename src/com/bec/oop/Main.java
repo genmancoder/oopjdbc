@@ -22,6 +22,9 @@ public class Main {
         deleteStudent("1");
     }
 
+    public static void updateStudent(String id){
+        //implementation
+    }
     public static void viewAll() {
         try {
             String sql = "SELECT * FROM students";
@@ -75,5 +78,6 @@ public class Main {
 
     }
     //update student set firstname = ?, lastname = ?, address = ? where id = ?
+    //insert into student (firstname,lastname, address) values("",)
 
 }
